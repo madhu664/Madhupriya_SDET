@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Madhupriya Mahalingan | Senior Software Test Engineer and SAFe Scrum Master</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,600..800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#eef1f4; --surface:#ffffff; --ink:#14202b; --muted:#4a5a68; --line:#cfd8df;
+  --accent:#b45f06; --accent-ink:#ffffff; --pass:#1f7a4d;
+  --head:'Archivo','Arial Narrow',Arial,sans-serif;
+  --body:'Source Sans 3',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0f1419; --surface:#18202a; --ink:#e8edf2; --muted:#9fb0bf; --line:#2a3644;
+    --accent:#f2b13c; --accent-ink:#14202b; --pass:#5fd39a;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0f1419; --surface:#18202a; --ink:#e8edf2; --muted:#9fb0bf; --line:#2a3644;
+  --accent:#f2b13c; --accent-ink:#14202b; --pass:#5fd39a;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.6}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 22px}
+h1,h2,h3{font-family:var(--head);margin:0;line-height:1.1;letter-spacing:-.01em}
+
+.hero{padding:64px 0 52px;border-bottom:4px solid var(--ink)}
+.hero h1{font-size:clamp(2.4rem,8.5vw,4.8rem);font-weight:800;font-stretch:75%;max-width:12ch}
+.role{font-family:var(--head);font-weight:700;font-size:clamp(1.05rem,3vw,1.45rem);margin:18px 0 0;color:var(--accent)}
+.intro{max-width:62ch;margin:18px 0 0;color:var(--muted)}
+.avail{margin:12px 0 0;font-size:.95rem;color:var(--muted)}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.btn{display:inline-block;padding:11px 20px;border:2px solid var(--ink);border-radius:4px;text-decoration:none;font-weight:600}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn:hover{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+
+section{display:grid;grid-template-columns:200px 1fr;gap:12px 36px;padding:46px 0;border-bottom:1px solid var(--line)}
+section>h2{font-size:1.5rem;font-weight:800}
+@media (max-width:720px){section{grid-template-columns:1fr}}
+
+.job h3{font-size:1.25rem}
+.job+.job{margin-top:30px;padding-top:26px;border-top:1px solid var(--line)}
+.meta{color:var(--muted);margin:4px 0 8px;font-size:.98rem}
+.parallel{margin:0 0 22px;padding:12px 16px;border-left:5px solid var(--accent);background:var(--surface)}
+ul{margin:0;padding-left:1.15em}
+li+li{margin-top:6px}
+
+.skills{display:grid;gap:18px}
+.skills h3{font-size:1rem;margin-bottom:6px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none}
+.tags li{margin:0;padding:4px 12px;border:1px solid var(--line);background:var(--surface);border-radius:999px;font-size:.95rem}
+
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--pass);padding:18px 18px 16px;border-radius:4px}
+.card.work{border-left-color:var(--accent)}
+.card h3{font-size:1.1rem}
+.card p{margin:8px 0 10px;color:var(--muted);font-size:1rem}
+.card .stack{font-size:.92rem;margin:0}
+.card a{font-weight:600}
+.more{margin:18px 0 0;color:var(--muted)}
+
+.plain{list-style:none;padding:0}
+.plain li{padding:12px 0;border-bottom:1px solid var(--line);margin:0}
+.plain li:last-child{border-bottom:0}
+.plain small{display:block;color:var(--muted)}
+
+footer{padding:40px 0 56px}
+footer p{margin:0 0 6px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<header class="hero">
+  <h1>Madhupriya Mahalingan</h1>
+  <p class="role">Senior Software Test Engineer | SAFe Scrum Master</p>
+  <p class="intro">Six and a half years of testing at Bosch, across hardware-in-the-loop validation, functional safety and car infotainment, for programs including home appliances and GM vehicles. For about two years of that time I trained for and worked as a SAFe Scrum Master, alongside my testing role.</p>
+  <p class="avail">India. Open to remote roles. Available 5 AM to 11 PM IST, with overlap for ANZ, APAC, EMEA and US Eastern time.</p>
+  <div class="links">
+    <a class="btn primary" href="mailto:madhupriyaooty@gmail.com">Email me</a>
+    <a class="btn" href="https://www.linkedin.com/in/madhupriya-mahalingan-388707115">LinkedIn</a>
+    <a class="btn" href="https://github.com/madhu664/Test_Automation_Projects">GitHub</a>
+  </div>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <div>
+    <p>I test software where mistakes matter. At Bosch I validated safety-critical functions, kept requirements traceable to ASPICE and ISO 26262 standards, and automated test execution so releases could be verified faster.</p>
+    <p>I combined hands-on testing with agile leadership, and I am looking for a senior test, test automation or Scrum Master role where I can use both.</p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div>
+    <div class="projects">
+      <article class="card work">
+        <h3>Functional safety testing</h3>
+        <p>Functional safety verification of automotive systems against ISO 26262, with automated test execution and reporting.</p>
+        <p class="stack">ISO 26262, ASPICE, Robot Framework, Python</p>
+      </article>
+      <article class="card work">
+        <h3>GM car infotainment</h3>
+        <p>Testing of infotainment systems for GM vehicles, with automated execution, working directly with GM stakeholders.</p>
+        <p class="stack">Infotainment testing, system-level testing, ASPICE, Robot Framework, Python</p>
+      </article>
+      <article class="card work">
+        <h3>Home appliance: cooking range</h3>
+        <p>Hardware-in-the-loop verification and validation of the appliance control system for home cooking ranges.</p>
+        <p class="stack">HIL V&amp;V, appliance control systems</p>
+      </article>
+      <article class="card work">
+        <h3>E-commerce automation: SauceDemo</h3>
+        <p>End-to-end online shopping flow covering login, product browsing, cart and checkout.</p>
+        <p class="stack">Playwright</p>
+      </article>
+      <article class="card work">
+        <h3>HR management automation: OrangeHRM</h3>
+        <p>Test automation suite for core HR workflows, built with keyword-driven test design.</p>
+        <p class="stack">Robot Framework, Python, Selenium</p>
+      </article>
+      <article class="card work">
+        <h3>EdTech platform testing: GUVI</h3>
+        <p>Automated test scripts for key user flows on an EdTech web application.</p>
+        <p class="stack">Pytest, Selenium</p>
+      </article>
+    </div>
+    <p class="more">Bosch project details are kept high level to respect confidentiality. More automation work is in my <a href="https://github.com/madhu664/Test_Automation_Projects">GitHub repository</a>.</p>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div>
+    <p class="meta">Bosch Global Software Technologies, July 2018 to January 2025 (6.5 years)</p>
+    <p class="parallel">From October 2023 to January 2025 I held the Scrum Master role and the test engineer role at the same time.</p>
+
+    <article class="job">
+      <h3>Functional Safety Senior Test Engineer</h3>
+      <p class="meta">July 2018 to January 2025. Automotive infotainment and appliance systems.</p>
+      <ul>
+        <li>Performed hardware-in-the-loop testing of home appliance control units and functional safety testing (ISO 26262, ASIL A/B) of car infotainment systems.</li>
+        <li>Automated test execution and reporting with Robot Framework and Python, and designed reusable scripts that reduced manual testing effort by <strong>40%</strong>.</li>
+        <li>Improved test coverage by <strong>30%</strong> through test planning and an automation strategy.</li>
+        <li>Improved defect resolution time by <strong>20%</strong> by streamlining tracking in JIRA and IBM RTC.</li>
+        <li>Worked to ASPICE Level 2 and 3 standards, keeping requirements traceable in DOORS and IBM RTC.</li>
+        <li>Integrated automated test runs into Jenkins CI/CD workflows for continuous testing across releases.</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <h3>SAFe Scrum Master</h3>
+      <p class="meta">Bangalore, October 2023 to January 2025, in parallel with testing</p>
+      <ul>
+        <li>Facilitated Iteration Planning, daily stand-ups, Iteration Reviews and Iteration Retrospectives for my Agile team.</li>
+        <li>Took part in PI Planning and Inspect and Adapt events as part of the Agile Release Train.</li>
+        <li>Coached the team on agile practices while continuing hands-on testing.</li>
+        <li>Scrum Master for an AI/ML-focused automotive automation team, facilitating agile delivery in a machine-learning-driven engineering environment.</li>
+        <li>Worked with cross-functional product teams and GM stakeholders to close requirement gaps and resolve critical issues.</li>
+      </ul>
+    </article>
+    <article class="job">
+      <h3>Career break and upskilling</h3>
+      <p class="meta">January 2025 to present. Maternity leave.</p>
+      <ul>
+        <li>Completed a Python Automation Testing certification (Selenium, Playwright, Behave BDD, Robot Framework, Pytest).</li>
+        <li>Built hands-on automation projects, listed under Projects.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div><h3>Testing domains</h3>
+      <ul class="tags"><li>Functional safety (ISO 26262)</li><li>ASPICE</li><li>HIL testing</li><li>Infotainment testing</li><li>System-level testing</li><li>Regression</li><li>Sanity</li></ul></div>
+    <div><h3>Agile and leadership</h3>
+      <ul class="tags"><li>SAFe</li><li>Scrum</li><li>Agile coaching</li><li>Iteration planning</li><li>PI Planning</li><li>Inspect and Adapt</li><li>Agile Release Train</li><li>Team mentorship</li><li>Stakeholder communication</li></ul></div>
+    <div><h3>Automation and languages</h3>
+      <ul class="tags"><li>Python</li><li>Robot Framework</li><li>Selenium</li><li>Playwright</li><li>Pytest</li><li>Behave (BDD)</li><li>MySQL</li></ul></div>
+    <div><h3>Tools</h3>
+      <ul class="tags"><li>JIRA</li><li>IBM RTC/RQM</li><li>DOORS</li><li>Jenkins</li><li>Git</li><li>Gerrit</li><li>Confluence</li><li>Vector CANoe</li><li>NI HIL systems</li><li>MS Project</li><li>Collaborator Review Tool</li></ul></div>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <ul class="plain">
+    <li>ISTQB Automotive Test Specialist (AuT)</li>
+    <li>ISTQB Foundation Level</li>
+    <li>Professional Scrum Master I (PSM I)<small>Scrum.org</small></li>
+    <li>SAFe Scrum Master<small>Renewal in progress</small></li>
+    <li>Python Automation Testing<small>GUVI | HCL</small></li>
+  </ul>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul class="plain">
+    <li>Master of Technology in Data Science<small>Kumaraguru College of Technology, 2018 to 2020</small></li>
+    <li>Bachelor of Engineering in Electronics and Communication<small>Kumaraguru College of Technology, 2014 to 2018</small></li>
+  </ul>
+</section>
+
+<section id="languages">
+  <h2>Languages</h2>
+  <ul class="plain">
+    <li>English<small>Full professional</small></li>
+    <li>Tamil<small>Full professional</small></li>
+    <li>Kannada<small>Limited working</small></li>
+  </ul>
+</section>
+
+<footer>
+  <p><strong>Open to remote test engineering, test automation and Scrum Master roles.</strong></p>
+  <p>Email <a href="mailto:madhupriyaooty@gmail.com">madhupriyaooty@gmail.com</a> or connect on <a href="https://www.linkedin.com/in/madhupriya-mahalingan-388707115">LinkedIn</a>.</p>
+</footer>
+
+</main>
+</body>
+</html>
